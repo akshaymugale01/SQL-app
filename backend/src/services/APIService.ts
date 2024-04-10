@@ -1,8 +1,6 @@
-// APIService.ts
-
 import axios, { AxiosResponse } from 'axios';
 
-const BASE_URL = 'http://localhost:5000/api'; // Replace with your backend API URL
+const BASE_URL = 'http://localhost:5000/api';
 
 interface ApiResponse<T> {
   data: T;
